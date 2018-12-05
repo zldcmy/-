@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<XML>
+    <Items>
+			<Item Title="形体" Attr="Text" Val="0" State="" Des="" Field="W01">	
+				<Item Title="胖嫩" Attr="CheckBox" Val="0" State="" Des="" Field="W01_01"/>	
+				<Item Title="中等" Attr="CheckBox" Val="0" State="" Des="" Field="W01_02"/>	
+				<Item Title="消瘦" Attr="CheckBox" Val="0" State="" Des="" Field="W01_03"/>	
+				</Item>	
+			<Item Title="精神" Attr="Text" Val="0" State="" Des="" Field="W02">	
+				<Item Title="得神" Attr="CheckBox" Val="0" State="" Des="" Field="W02_01"/>	
+				<Item Title="少神" Attr="CheckBox" Val="0" State="" Des="" Field="W02_02"/>	
+				<Item Title="失神" Attr="CheckBox" Val="0" State="" Des="" Field="W02_03"/>	
+				</Item>		
+			<Item Title="面色" Attr="Text" Val="0" State="" Des="" Field="W03">	
+				<Item Title="青" Attr="CheckBox" Val="0" State="" Des="" Field="W03_01"/>	
+				<Item Title="赤（颊）" Attr="CheckBox" Val="0" State="" Des="" Field="W03_02"/>	
+				<Item Title="黄" Attr="CheckBox" Val="0" State="" Des="" Field="W03_03"/>	
+				<Item Title="白" Attr="CheckBox" Val="0" State="" Des="" Field="W03_04"/>	
+				<Item Title="黑" Attr="CheckBox" Val="0" State="" Des="" Field="W03_05"/>	
+				<Item Title="目眶色暗" Attr="CheckBox" Val="0" State="" Des="" Field="W03_06"/>			
+				<Item Title="少泽" Attr="CheckBox" Val="0" State="" Des="" Field="W03_07"/>	
+				<Item Title="无泽" Attr="CheckBox" Val="0" State="" Des="" Field="W03_08"/>					
+				</Item>			
+			<Item Title="唇色" Attr="Text" Val="0" State="" Des="" Field="W04">	
+				<Item Title="淡白" Attr="CheckBox" Val="0" State="" Des="" Field="W04_01"/>	
+				<Item Title="红" Attr="CheckBox" Val="0" State="" Des="" Field="W04_02"/>	
+				<Item Title="深红" Attr="CheckBox" Val="0" State="" Des="" Field="W04_03"/>	
+				<Item Title="淡紫" Attr="CheckBox" Val="0" State="" Des="" Field="W04_04"/>	
+				<Item Title="紫暗" Attr="CheckBox" Val="0" State="" Des="" Field="W04_05"/>				
+				<Item Title="青黑" Attr="CheckBox" Val="0" State="" Des="" Field="W04_06"/>							
+				</Item>											
+		<Item Title="舌象" Attr="Text" Val="0" State="" Des="" Field="W05">			
+			<Item Title="舌色" Attr="Text" Val="0" State="" Des="" Field="W05_01">	
+				<Item Title="淡红" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_01"/>	
+				<Item Title="淡白" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_02"/>	
+				<Item Title="红" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_03"/>	
+				<Item Title="淡红而紫" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_04"/>	
+				<Item Title="紫" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_05"/>	
+				<Item Title="紫暗" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_06"/>			
+				<Item Title="降" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_07"/>	
+				<Item Title="舌边尖红" Attr="CheckBox" Val="0" State="" Des="" Field="W05_01_08"/>					
+				</Item>			
+			<Item Title="舌质" Attr="Text" Val="0" State="" Des="" Field="W05_02">	
+			<Item Title="胖瘦" Attr="Text" Val="0" State="" Des="" Field="">	
+				<Item Title="胖" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_01"/>	
+				<Item Title="瘦" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_02"/>	
+				<Item Title="正常" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_03"/>	
+				</Item>					
+				<Item Title="齿痕" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_04"/>	
+				<Item Title="点刺" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_05"/>	
+				<Item Title="裂纹" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_06"/>	
+				<Item Title="瘀斑" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_07"/>	
+				<Item Title="舌下青筋" Attr="CheckBox" Val="0" State="" Des="" Field="W05_02_08"/>				
+				</Item>		
+			<Item Title="舌苔" Attr="Text" Val="0" State="" Des="" Field="W05_03">	
+				<Item Title="薄" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_01"/>	
+				<Item Title="厚" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_02"/>	
+				<Item Title="腻" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_03"/>	
+				<Item Title="腐" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_04"/>	
+				<Item Title="润" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_05"/>	
+				<Item Title="燥" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_06"/>			
+				<Item Title="苔少" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_07"/>	
+				<Item Title="苔剥" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_08"/>			
+				<Item Title="镜面舌" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_09"/>	
+				<Item Title="滑" Attr="CheckBox" Val="0" State="" Des="" Field="W05_03_10"/>								
+				</Item>		
+			<Item Title="苔色" Attr="Text" Val="0" State="" Des="" Field="W05_04">	
+				<Item Title="白" Attr="CheckBox" Val="0" State="" Des="" Field="W05_04_01"/>	
+				<Item Title="黄" Attr="CheckBox" Val="0" State="" Des="" Field="W05_04_02"/>	
+				<Item Title="黄白相间" Attr="CheckBox" Val="0" State="" Des="" Field="W05_04_03"/>	
+				<Item Title="灰黑" Attr="CheckBox" Val="0" State="" Des="" Field="W05_04_04"/>						
+				</Item>																									
+		</Item>		
+			<Item Title="脉象" Attr="Text" Val="0" State="" Des="" Field="W06">	
+				<Item Title="浮" Attr="CheckBox" Val="0" State="" Des="" Field="W06_01"/>	
+				<Item Title="沉" Attr="CheckBox" Val="0" State="" Des="" Field="W06_02"/>	
+				<Item Title="迟" Attr="CheckBox" Val="0" State="" Des="" Field="W06_03"/>	
+				<Item Title="数" Attr="CheckBox" Val="0" State="" Des="" Field="W06_04"/>	
+				<Item Title="滑" Attr="CheckBox" Val="0" State="" Des="" Field="W06_05"/>	
+				<Item Title="涩" Attr="CheckBox" Val="0" State="" Des="" Field="W06_06"/>			
+				<Item Title="弦" Attr="CheckBox" Val="0" State="" Des="" Field="W06_07"/>	
+				<Item Title="细" Attr="CheckBox" Val="0" State="" Des="" Field="W06_08"/>			
+				<Item Title="结代" Attr="CheckBox" Val="0" State="" Des="" Field="W06_09"/>	
+				<Item Title="促" Attr="CheckBox" Val="0" State="" Des="" Field="W06_10"/>			
+				<Item Title="洪" Attr="CheckBox" Val="0" State="" Des="" Field="W06_11"/>	
+				<Item Title="濡" Attr="CheckBox" Val="0" State="" Des="" Field="W06_12"/>			
+				<Item Title="弱" Attr="CheckBox" Val="0" State="" Des="" Field="W06_13"/>	
+				<Item Title="无力" Attr="CheckBox" Val="0" State="" Des="" Field="W06_14"/>			
+				<Item Title="缓" Attr="CheckBox" Val="0" State="" Des="" Field="W06_15"/>											
+				</Item>										
+     </Items>
+</XML>

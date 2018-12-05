@@ -1,0 +1,12 @@
+11 1 Filelabel: Household datafile from relate example
+_label1        1   2  30   0   0   0   0 112                                 Household Record
+_label2        1   3  30   0   0   0   0 112     Epi Info version 6. Household - persons - visit example adapted to EpiData
+_label3        1   5  30   0   0   0   0 112     Illustrating record linkage. Each Household Record is linked to one or
+_label4        1   6  30   0   0   0   0 112     more PERSON records by the identifier HOUSEID. During data entry, the
+_label5        1   7  30   0   0   0   0 112     HOUSE file is the main file. Persons the second level and visits the third 
+_label6        1   8  30   0   0   0   0 112     level as indicated by the TAB pages, see bottom of screen
+#houseid       1  10  30  20  10  12   5 112          HouseID   
+_address       1  12  30  20  12   1  32 112          Address   
+_city          1  14  30  20  14   1  22 112          City      
+#bedrooms      1  16  30  37  16   0   2 112          Number    of bedrooms: 
+_water         1  18  30  35  18   5   1 112          Running         water: 

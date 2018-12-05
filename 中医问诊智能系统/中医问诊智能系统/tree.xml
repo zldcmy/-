@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<XML>
+    <Items>
+        <Item Title="心悸（怔忡）" Attr="Text" Val="" State="" Des="">
+            <Item Title="发作频率" Attr="Text" Val="" State="" Des="">
+                <Item Title="偶尔" Attr="CheckBox" Val="0" State="" Des="偶尔"/>
+                <Item Title="经常" Attr="CheckBox" Val="0" State="" Des="经常"/>
+            </Item>
+            <Item Title="发作持续时间" Attr="Text" Val="" State="" Des="">
+                <Item Title="短暂" Attr="CheckBox" Val="0" State="" Des="短暂"/>
+                <Item Title="持久" Attr="CheckBox" Val="0" State="" Des="持久"/>
+            </Item>
+            <Item Title="诱发（加重因素）" Attr="Text" Val="" State="" Des="">
+                <Item Title="安静时或夜间无明显诱因而发" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="活动后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="情志不遂" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="饮酒饱食" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="遇阴雨天" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="气候骤冷或骤感风寒" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>
+            <Item Title="缓解因素" Attr="Text" Val="" State="" Des="">
+                <Item Title="休息后" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="服药后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="服药后难以缓解" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="得温则缓" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>			
+        </Item>
+        <Item Title="胸闷" Attr="Text" Val="" State="" Des="">
+            <Item Title="发作频率" Attr="Text" Val="" State="" Des="">
+                <Item Title="偶尔" Attr="CheckBox" Val="0" State="" Des="偶尔"/>
+                <Item Title="经常" Attr="CheckBox" Val="0" State="" Des="经常"/>
+            </Item>
+            <Item Title="发作持续时间" Attr="Text" Val="" State="" Des="">
+                <Item Title="短暂" Attr="CheckBox" Val="0" State="" Des="短暂"/>
+                <Item Title="持久" Attr="CheckBox" Val="0" State="" Des="持久"/>
+            </Item>
+            <Item Title="诱发（加重因素）" Attr="Text" Val="" State="" Des="">
+                <Item Title="安静时或夜间无明显诱因而发" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="活动后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="情志不遂" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="饮酒饱食" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="遇阴雨天" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="气候骤冷或骤感风寒" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>
+            <Item Title="缓解因素" Attr="Text" Val="" State="" Des="">
+                <Item Title="休息后" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="服药后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="服药后难以缓解" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="得温则缓" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>			
+        </Item>	
+        <Item Title="胸痛" Attr="Text" Val="" State="" Des="">
+            <Item Title="部位" Attr="Text" Val="" State="" Des="">
+                <Item Title="虚里/心前区" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="膻中" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="胸膺" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="痛引肩背内臂" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="痛无定处" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="痛有定处" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="其它部位" Attr="Edit" Val="" State="" Des=""/>
+            </Item>	
+            <Item Title="性质" Attr="Text" Val="" State="" Des="">
+                <Item Title="刺痛" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="隐痛" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="胀痛" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="绞痛" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="其它性质" Attr="Edit" Val="" State="" Des=""/>
+            </Item>			
+            <Item Title="发作频率" Attr="Text" Val="" State="" Des="">
+                <Item Title="偶尔" Attr="CheckBox" Val="0" State="" Des="偶尔"/>
+                <Item Title="经常" Attr="CheckBox" Val="0" State="" Des="经常"/>
+            </Item>
+            <Item Title="发作持续时间" Attr="Text" Val="" State="" Des="">
+                <Item Title="短暂" Attr="CheckBox" Val="0" State="" Des="短暂"/>
+                <Item Title="持久" Attr="CheckBox" Val="0" State="" Des="持久"/>
+            </Item>
+            <Item Title="诱发（加重因素）" Attr="Text" Val="" State="" Des="">
+                <Item Title="安静时或夜间无明显诱因而发" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="活动后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="情志不遂" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="饮酒饱食" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="遇阴雨天" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="气候骤冷或骤感风寒" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>
+            <Item Title="缓解因素" Attr="Text" Val="" State="" Des="">
+                <Item Title="休息后" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="服药后" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="服药后难以缓解" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="得温则缓" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>			
+        </Item>	
+			<Item Title="气短/气急/憋气" Attr="CheckBox" Val="0" State="" Des="">	
+		</Item>
+		<Item Title="浮肿" Attr="Text" Val="0" State="" Des="">	
+			<Item Title="部位" Attr="Text" Val="0" State="" Des="">	
+				<Item Title="下肢双足" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="头面" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="目胞" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="从下肢始，遍及全身" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="从颜面始，遍及全身" Attr="CheckBox" Val="0" State="" Des=""/>					
+			</Item>
+			<Item Title="特点" Attr="Text" Val="0" State="" Des="">	
+				<Item Title="按之即起" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="按之凹陷" Attr="CheckBox" Val="0" State="" Des=""/>	
+			</Item>			
+		</Item>	
+			<Item Title="乏力懒言" Attr="CheckBox" Val="0" State="" Des="">	
+		</Item>
+			<Item Title="心烦" Attr="CheckBox" Val="0" State="" Des="">	
+		</Item>	
+			<Item Title="阵发性夜间呼吸困难或端坐呼吸" Attr="CheckBox" Val="0" State="" Des="">	
+		</Item>	
+			<Item Title="健忘" Attr="CheckBox" Val="0" State="" Des="">	
+		</Item>	
+        <Item Title="寒热" Attr="Text" Val="" State="" Des="">
+            <Item Title="恶风/恶寒" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="畏寒" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="肢冷" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="发热" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="潮热/烘热" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="手足心热" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="寒热往来/乍寒乍热" Attr="CheckBox" Val="0" State="" Des=""/>			
+        </Item>	
+		<Item Title="汗" Attr="Text" Val="0" State="" Des="">	
+			<Item Title="自汗" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="盗汗" Attr="CheckBox" Val="0" State="" Des=""/>	
+		</Item>		
+        <Item Title="头身胸腹" Attr="Text" Val="" State="" Des="">
+			<Item Title="眩晕/头晕目眩" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="耳鸣" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="口舌生疮" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="齿龈肿痛" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="咽痒咽痛" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="咳嗽" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="咯痰" Attr="Text" Val="" State="" Des="">
+				<Item Title="颜色" Attr="Text" Val="" State="" Des="">
+	                <Item Title="白" Attr="CheckBox" Val="0" State="" Des=""/>
+	                <Item Title="黄" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="灰黑" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="带血丝" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="铁锈色" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="粉红色" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="脓血痰" Attr="CheckBox" Val="" State="" Des=""/>
+					<Item Title="咯血" Attr="CheckBox" Val="" State="" Des=""/>
+				</Item>
+				<Item Title="质地" Attr="Text" Val="" State="" Des="">
+	                <Item Title="清稀" Attr="CheckBox" Val="0" State="" Des=""/>
+	                <Item Title="粘稠或成块" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="泡沫" Attr="CheckBox" Val="0" State="" Des=""/>
+				</Item>	
+				<Item Title="量" Attr="Text" Val="" State="" Des="">
+	                <Item Title="多" Attr="CheckBox" Val="0" State="" Des=""/>
+	                <Item Title="中等" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="少" Attr="CheckBox" Val="0" State="" Des=""/>
+				</Item>	
+				<Item Title="难易" Attr="Text" Val="" State="" Des="">
+	                <Item Title="易咯" Attr="CheckBox" Val="0" State="" Des=""/>
+	                <Item Title="难咯" Attr="CheckBox" Val="0" State="" Des=""/>
+				</Item>	
+				<Item Title="味" Attr="Text" Val="" State="" Des="">
+	                <Item Title="腥臭" Attr="CheckBox" Val="0" State="" Des=""/>
+	                <Item Title="甜" Attr="CheckBox" Val="0" State="" Des=""/>
+					<Item Title="咸" Attr="CheckBox" Val="0" State="" Des=""/>
+				</Item>	
+				<Item Title="其它" Attr="Edit" Val="0" State="" Des=""/>
+            </Item>	
+			<Item Title="呃逆、嗳气" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="泛酸" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="胃脘胀满" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="胃脘痛" Attr="Text" Val="" State="" Des="">
+                <Item Title="喜温喜按" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="拒按" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="其它" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>			
+            <Item Title="嘈杂" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="灼热" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="恶心呕吐" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="善叹息" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="胁肋胀满、疼痛" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="腹部胀满疼痛" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="腰膝酸软" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="手足麻木" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="周身酸痛/身重" Attr="CheckBox" Val="0" State="" Des=""/>
+        </Item>	
+		<Item Title="饮食口味" Attr="Text" Val="0" State="" Des="">	
+			<Item Title="咽干口渴" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="不欲饮或少饮" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="多饮不解渴" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="喜冷饮" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="喜热饮" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="纳呆食少" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="多食易饥" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="饥不欲食" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="饮食偏嗜" Attr="Text" Val="" State="" Des="">
+                <Item Title="喜食甜" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="喜食咸" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="喜肥甘" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="喜辛辣" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>	
+			<Item Title="口苦" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="口粘腻" Attr="CheckBox" Val="0" State="" Des=""/>	
+			<Item Title="口淡乏味" Attr="CheckBox" Val="0" State="" Des=""/>				
+		</Item>	
+        <Item Title="二便" Attr="Text" Val="" State="" Des="">
+            <Item Title="次/日" Attr="ComboBox" Val="" State="" Des="次数">
+                <option Title=""/>
+                <option Title="1"/>
+                <option Title="2"/>
+                <option Title="3"/>
+                <option Title="4"/>
+                <option Title="5"/>
+                <option Title="6"/>
+                <option Title="7"/>
+                <option Title="8"/>	
+                <option Title="9"/>
+                <option Title="10"/>					
+            </Item>
+            <Item Title="日/次" Attr="ComboBox" Val="" State="" Des="次数">
+                <option Title=""/>
+                <option Title="1"/>
+                <option Title="2"/>
+                <option Title="3"/>
+                <option Title="4"/>
+                <option Title="5"/>
+                <option Title="6"/>
+                <option Title="7"/>
+                <option Title="8"/>	
+                <option Title="9"/>
+                <option Title="10"/>					
+            </Item>			
+            <Item Title="便溏" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="水样泻" Attr="CheckBox" Val="0" State="" Des=""/>		
+            <Item Title="完谷不化" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="晨起（黎明）泄泻" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="溏结不调" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="便秘" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="便干结如羊屎" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="排便不爽或里急后重" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="小便清长" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="小便黄赤" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="小便频数" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="尿少" Attr="CheckBox" Val="0" State="" Des=""/>	
+            <Item Title="尿涩痛" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="尿灼热" Attr="CheckBox" Val="0" State="" Des=""/>		
+            <Item Title="余沥不尽" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="夜尿频多" Attr="CheckBox" Val="0" State="" Des=""/>				
+        </Item>	
+		<Item Title="睡眠" Attr="Text" Val="0" State="" Des="">		
+            <Item Title="失眠" Attr="Text" Val="" State="" Des="">
+                <Item Title="不易入睡" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="睡而不酣，时易惊醒" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="醒后难以入睡" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="彻夜不眠" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="多梦" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="早醒" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="醒后神疲乏力" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="其它" Attr="CheckBox" Val="0" State="" Des=""/>				
+            </Item>	
+			<Item Title="嗜睡" Attr="CheckBox" Val="0" State="" Des=""/>			
+		</Item>	
+        <Item Title="情绪" Attr="Text" Val="" State="" Des="">
+            <Item Title="急躁易怒" Attr="CheckBox" Val="0" State="" Des=""/>
+            <Item Title="善惊易恐" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="善忧思" Attr="CheckBox" Val="0" State="" Des=""/>
+			<Item Title="善悲" Attr="CheckBox" Val="0" State="" Des=""/>		
+        </Item>	
+		<Item Title="妇女" Attr="Text" Val="0" State="" Des="">	
+			<Item Title="绝经" Attr="CheckBox" Val="0" State="" Des=""/>		
+            <Item Title="经期" Attr="Text" Val="" State="" Des="">
+                <Item Title="先期" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="后期" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="先后不定期" Attr="CheckBox" Val="0" State="" Des=""/>				
+            </Item>	
+            <Item Title="经量" Attr="Text" Val="" State="" Des="">
+                <Item Title="过多" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="过少" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="闭经" Attr="CheckBox" Val="0" State="" Des=""/>		
+                <Item Title="淋漓不尽" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="血崩" Attr="CheckBox" Val="0" State="" Des=""/>					
+            </Item>		
+            <Item Title="经色" Attr="Text" Val="" State="" Des="">
+                <Item Title="淡红" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="暗红" Attr="CheckBox" Val="0" State="" Des=""/>		
+            </Item>	
+            <Item Title="经期" Attr="Text" Val="" State="" Des="">
+                <Item Title="稀" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="稠" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="夹血块" Attr="CheckBox" Val="0" State="" Des=""/>				
+            </Item>	
+            <Item Title="经行兼症" Attr="Text" Val="" State="" Des="">
+                <Item Title="乳胀痛" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="小腹疼痛" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="胀痛" Attr="CheckBox" Val="0" State="" Des=""/>		
+                <Item Title="刺痛" Attr="CheckBox" Val="0" State="" Des=""/>
+				<Item Title="冷痛" Attr="CheckBox" Val="0" State="" Des=""/>	
+				<Item Title="喜温喜按" Attr="CheckBox" Val="0" State="" Des=""/>
+            </Item>		
+            <Item Title="带下" Attr="Text" Val="" State="" Des="">
+                <Item Title="白" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="黄" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="稀" Attr="CheckBox" Val="0" State="" Des=""/>
+                <Item Title="稠" Attr="CheckBox" Val="0" State="" Des=""/>				
+            </Item>				
+		</Item>			
+     </Items>
+</XML>

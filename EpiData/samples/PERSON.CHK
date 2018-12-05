@@ -1,0 +1,40 @@
+BEFORE FILE
+  DEFINE varNAME _________________________________ GLOBAL
+  DEFINE varAGE  ###                               GLOBAL
+  DEFINE varSEX  _                                 GLOBAL
+  DEFINE varILL  _                                 GLOBAL
+  HELP "Please enter names etc. for all persons living in \n \n @varADDRESS \n @varCITY"
+END
+
+BEFORE RECORD
+  ADDRESS  = varADDRESS
+  City = varCITY
+END
+
+PERSONID
+  KEY UNIQUE 1
+END
+
+HOUSEID
+  KEY 2
+END
+
+ILL
+  AFTER ENTRY
+    varNAME = NAME
+    varAGE  = AGE
+    varSEX  = SEX
+    varILL  = ILL
+    RELATE PERSONID VISIT
+  END
+END
+
+ADDRESS
+  NOENTER
+END
+
+CITY
+  NOENTER
+END
+
+

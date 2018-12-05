@@ -1,0 +1,61 @@
+* Revised 27 jan 2001 11:22
+
+LABELBLOCK
+  LABEL sex
+    1  Male
+    2  Female
+    9  Unknown
+  END
+  LABEL string
+    OD  Odense
+    BLT  Baltimore
+    CPH  "Copenhagen Denmark"
+    REY  "Reykjavik Iceland"
+    SID  Sidney
+    NDH  "New Delhi"
+    MOM  Mombassa
+    BUE  "Buenos Aires"
+  END
+END
+
+ID
+ type statusbar "id= " Green
+end
+
+V1
+  COMMENT LEGAL USE sex
+  TYPE COMMENT
+END
+
+V2
+  RANGE 0.0 2.30
+  LEGAL
+    9
+  END
+END
+
+V3
+  AFTER ENTRY
+    BMI=v3/(v2^2)
+  END
+END
+
+BMI
+  NOENTER
+END
+
+V4
+  AFTER ENTRY
+    AGE=trunc((t1-v4)/365.25)
+  END
+END
+
+age
+  NOENTER
+END
+
+S2
+  COMMENT LEGAL USE string
+  TYPE COMMENT
+END
+

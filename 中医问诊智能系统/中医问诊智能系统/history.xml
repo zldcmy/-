@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<XML>
+    <Items>
+ 		<Item Title="健康" Attr="CheckBox" Val="0" State="" Des="" Field="J01">	
+		</Item>
+		<Item Title="易感冒" Attr="CheckBox" Val="0" State="" Des="" Field="J02">	
+		</Item>
+		<Item Title="罹患疾病" Attr="Text" Val="0" State="" Des="" Field="J03">	
+			<Item Title="呼吸系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_01">	
+				<Item Title="急性上呼吸道感染" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_01"/>	
+				<Item Title="急性气管-支气管炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_02"/>	
+				<Item Title="慢性支气管炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_03"/>	
+				<Item Title="阻塞性肺气肿" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_04"/>	
+				<Item Title="肺源性心脏病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_05"/>		
+				<Item Title="支气管扩张" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_06"/>	
+				<Item Title="支气管哮喘" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_07"/>	
+				<Item Title="肺炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_08"/>	
+				<Item Title="肺结核" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_09"/>	
+				<Item Title="原发性支气管肺癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_10"/>		
+				<Item Title="气胸" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_11"/>	
+				<Item Title="胸腔积液" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_12"/>	
+				<Item Title="间质性肺疾病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_13"/>	
+				<Item Title="肺脓肿" Attr="CheckBox" Val="0" State="" Des="" Field="J03_01_14"/>											
+			</Item>
+			<Item Title="循环系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_02">	
+				<Item Title="原发性高血压" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_01"/>	
+				<Item Title="冠状动脉粥样硬化性心脏病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_02"/>	
+				<Item Title="心律失常" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_03"/>	
+				<Item Title="心力衰竭" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_04"/>	
+				<Item Title="动脉粥样硬化" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_05"/>	
+				<Item Title="心脏瓣膜病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_06"/>			
+				<Item Title="感染性心内膜炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_07"/>	
+				<Item Title="心肌疾病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_08"/>	
+				<Item Title="心包疾病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_09"/>	
+				<Item Title="先天性心脏病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_10"/>	
+				<Item Title="心血管神经症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_11"/>	
+				<Item Title="闭塞性周围动脉粥样硬化" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_12"/>		
+				<Item Title="雷诺综合征" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_13"/>	
+				<Item Title="血栓性静脉炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_02_14"/>															
+			</Item>		
+			<Item Title="消化系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_03">	
+				<Item Title="胃炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_01"/>	
+				<Item Title="消化性溃疡" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_02"/>	
+				<Item Title="溃疡性结肠炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_03"/>	
+				<Item Title="慢性腹泻" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_04"/>	
+				<Item Title="胃食管返流病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_05"/>	
+				<Item Title="食管癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_06"/>			
+				<Item Title="胃癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_07"/>	
+				<Item Title="大肠癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_08"/>	
+				<Item Title="慢性肝炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_09"/>	
+				<Item Title="肝硬化" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_10"/>	
+				<Item Title="原发性肝癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_11"/>	
+				<Item Title="胰腺炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_12"/>		
+				<Item Title="胰腺癌" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_13"/>	
+				<Item Title="上消化道大出血" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_14"/>				
+				<Item Title="Crohn病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_03_15"/>																		
+			</Item>		
+			<Item Title="泌尿系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_04">	
+				<Item Title="尿路感染" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_01"/>	
+				<Item Title="肾小球肾炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_02"/>	
+				<Item Title="肾病综合征" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_03"/>	
+				<Item Title="IgA肾病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_04"/>	
+				<Item Title="间质性肾炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_05"/>	
+				<Item Title="肾小管疾病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_06"/>			
+				<Item Title="肾衰竭" Attr="CheckBox" Val="0" State="" Des="" Field="J03_04_07"/>	
+				</Item>		
+			<Item Title="血液系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_05">	
+				<Item Title="缺铁性贫血" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_01"/>	
+				<Item Title="巨幼细胞贫血" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_02"/>	
+				<Item Title="再生障碍性贫血" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_03"/>	
+				<Item Title="溶血性贫血" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_04"/>	
+				<Item Title="白细胞减少和粒细胞缺乏症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_05"/>	
+				<Item Title="白血病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_06"/>			
+				<Item Title="过敏性紫癜" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_07"/>	
+				<Item Title="血小板减少性紫癜" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_08"/>	
+				<Item Title="淋巴瘤" Attr="CheckBox" Val="0" State="" Des="" Field="J03_05_09"/>	
+				</Item>		
+			<Item Title="内分泌系统疾病" Attr="Text" Val="0" State="" Des="" Field="J03_06">	
+				<Item Title="单纯性甲状腺肿" Attr="CheckBox" Val="0" State="" Des="" Field="J03_06_01"/>	
+				<Item Title="甲状腺功能亢进症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_06_02"/>	
+				<Item Title="甲状腺功能减退症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_06_03"/>	
+				<Item Title="甲状腺炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_06_04"/>	
+				<Item Title="嗜铬细胞瘤" Attr="CheckBox" Val="0" State="" Des="" Field="J03_06_05"/>	
+				</Item>				
+			<Item Title="代谢疾病和营养疾病" Attr="Text" Val="0" State="" Des="" Field="J03_07">	
+				<Item Title="糖尿病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_07_01"/>	
+				<Item Title="低血糖症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_07_02"/>	
+				<Item Title="血脂异常" Attr="CheckBox" Val="0" State="" Des="" Field="J03_07_03"/>	
+				<Item Title="痛风" Attr="CheckBox" Val="0" State="" Des="" Field="J03_07_04"/>	
+				<Item Title="骨质疏松症" Attr="CheckBox" Val="0" State="" Des="" Field="J03_07_05"/>	
+				</Item>	
+			<Item Title="结缔组织病和风湿病" Attr="Text" Val="0" State="" Des="" Field="J03_08">	
+				<Item Title="类风湿关节炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_01"/>	
+				<Item Title="系统性红斑狼疮" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_02"/>	
+				<Item Title="大动脉炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_03"/>	
+				<Item Title="系统性硬化病" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_04"/>	
+				<Item Title="干燥综合征" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_05"/>	
+				<Item Title="骨性大关节炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_06"/>			
+				<Item Title="强直性脊柱炎" Attr="CheckBox" Val="0" State="" Des="" Field="J03_08_07"/>	
+				</Item>																			
+		</Item>	
+			<Item Title="手术病史" Attr="Text" Val="0" State="" Des="" Field="J04">	
+				<Item Title="无手术病史" Attr="CheckBox" Val="0" State="" Des="" Field="J04_01"/>	
+				<Item Title="有手术病史" Attr="Edit" Val="" State="" Des="" Field="J04_02_T"/>
+				</Item>
+			<Item Title="服用激素史" Attr="Text" Val="0" State="" Des="" Field="J05">	
+				<Item Title="曾经服用" Attr="CheckBox" Val="0" State="" Des="" Field="J05_01"/>	
+				<Item Title="现仍服用" Attr="CheckBox" Val="0" State="" Des="" Field="J05_02"/>	
+				<Item Title="未曾服用" Attr="CheckBox" Val="0" State="" Des="" Field="J05_03"/>	
+				</Item>		
+			<Item Title="过敏史" Attr="Text" Val="0" State="" Des="" Field="J06">	
+				<Item Title="无过敏史" Attr="CheckBox" Val="0" State="" Des="" Field="J06_01"/>	
+				<Item Title="药物" Attr="Edit" Val="" State="" Des="" Field="J06_02_T"/>
+				<Item Title="食物" Attr="Edit" Val="" State="" Des="" Field="J06_03_T"/>			
+				</Item>		
+				<Item Title="其它" Attr="Edit" Val="" State="" Des="" Field="J07_T"/>												
+     </Items>
+</XML>

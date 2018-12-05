@@ -1,0 +1,14 @@
+Example datafile showing the use
+of date and time functions in the checkfile
+
+Procedure {start dat}e <dd/mm/yyyy>
+Procedure {start tim}e ##.##  (enter hh.mm as 24-hour clock)
+
+Procedure {end date}   <dd/mm/yyyy>
+Procedure {end time}   ##.##  (enter hh.mm as 24-hour clock)
+
+Total time used in procedure was  
+{Days}: ###
+{Hours}/{Min}utes: ##.##
+
+{Sec}onds {used} to fill out this record: ####

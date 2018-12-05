@@ -1,0 +1,116 @@
+:Base EpiData.hlp
+:Title EpiData 2.0 中文版
+1 介绍
+2 介绍=ID_introduction
+2 赞助者与资助=ID_Acknowledgements
+2 如何从帮助文件打印手册=ID_Print
+1 EpiData菜单=ID_Menus
+1 快捷键/鼠标 =ID_ShortCutKeys
+1 如何制作调查表文件 .qes
+2 EpiData 编辑器=ID_Editor
+2 字段清单=ID_FieldPickList
+2 编码书写器=ID_CodeWriter
+2 数据格式预览=ID_PreviewDataform
+2 字段名=ID_Fieldnames
+2 自动字段命名=ID_AutoFieldnames
+2 以第一个词作为字段名=ID_FirstWord
+2 变量标记=ID_VariableLabels
+2 自动缩进=ID_AutoIndention
+2 输入字段对齐=ID_AlignEntryfields
+1 产生数据文件 - 或更改数据结构
+2 产生数据文件=ID_CreateDatafile
+2 更新数据文件=ID_ReviseDatafile
+2 字段更名=ID_RenameFields
+2 数据文件连接/合并=ID_AppendMerge
+2 数据格式打印=ID_PrintDataform
+1 EpiData 中的字段类型
+2 字段类型清单=ID_FieldTypes
+2 ID 号=ID_IDNumber
+2 数字=ID_Numeric
+2 文本=ID_Text
+2 大写字母文本=ID_Uppercase
+2 布尔函数 (yes/no)=ID_Boolean
+2 日期=ID_DateFields
+2 今天日期=ID_TodaysDate
+2 声索引=ID_Soundex
+2 表=ID_Tabulator
+1 检查
+2 检查文件介绍=ID_Checkfile
+2 增加/修改 检查项
+3 增加/修改 检查项=ID_AddChecks
+3 范围/合理=ID_RangeLegal
+3 跳转=ID_Jumps
+3 必须输入=ID_MustEnter
+3 重复=ID_Repeat
+3 数值标记=ID_ValueLabels
+3 编辑所有检查项=ID_EditAllChecks
+3 复制/裁剪/插入=ID_CopyChecks
+3 清除所有检查项=ID_ClearAllChecks
+2 使用编辑器产生检查文件
+3 检查文件结构=ID_CheckFileStructure
+3 检查文件的实例=ID_CheckFileExample
+2 检查文件参考
+3 检查命令清单=ID_ListOfCheckCommands
+3 操作符和函数=ID_OperatorsAndFunctions
+3 操作符=ID_Operators
+3 数学函数=ID_ArithmeticFunctions
+3 字符函数=ID_StringFunctions
+3 日期函数=ID_DateFunctions
+3 其它函数=ID_OtherFunctions
+1 输入数据
+2 字段间移动=ID_NavigationBetweenFields
+2 记录间移动=ID_NavigationBetweenRecords
+2 跳转记录号=ID_FindingRecords
+2 查找记录=ID_FindingRecords
+2 过滤器=ID_Filter
+2 两次录入和有效性检查=ID_DoubleEntry
+1 数据文件资料
+2 关于数据文件=ID_DocumentDatafile
+2 数据输入须知=ID_DataentryNotes
+2 数据文件标记=ID_DatafileLabel
+2 数据清单=ID_ListData
+2 编码表=ID_Codebook
+2 逻辑检查=ID_Consistency
+2 按字段计算记录数=ID_CountRecords
+2 两次录入和有效性检查=ID_DoubleEntry
+1 数据转出
+2 数据文件的备份=ID_Backup
+2 转成文本文件=ID_ExportTextfile
+2 转成 dBase III 文件=ID_ExportDBase
+2 转成 Excel 文件=ID_ExportExcel
+2 转成 Stata 数据文件=ID_ExportStata
+2 转成 SPSS 文件=ID_ExportSPSS
+2 转成 SAS 文件=ID_ExportSAS
+2 转成 EpiData 文件=ID_ExportEpiData
+1 数据转入
+2 从其它文件格式导入数据=ID_ImportData
+2 从文本文件导入数据=ID_ImportText
+2 从 dBase 文件导入数据=ID_ImportDBase
+2 从 Stata 导入数据=ID_ImportStata
+1 工具
+2 根据数据文件产生 QES-文件=ID_Rec2Qes
+2 清理数据文件(去除有删除标记的记录)=ID_Pack
+2 压缩数据文件 (optimize fieldsizes)=ID_Compress
+2 重建索引=ID_Key
+2 根据更新的 QES 文件更新数据文件=ID_ReviseDatafile
+2 为字段更名=ID_RenameFields
+2 编辑数据文件标记=ID_DatafileLabel
+2 为数据文件重新编码=ID_Recode
+1 如何使用 EpiData
+2 选择项=ID_Options
+2 工具条=ID_ToolBars
+2 快捷键=ID_ShortCutKeys
+2 程序参数=ID_ProgramParameters
+2 初始化文件INI-文件(设置文件)=ID_Inifile
+2 软件的国际化=ID_Language
+1 关于 EpiData
+2 关于EpiData=ID_AboutEpiData
+2 感谢=ID_Acknowledgements
+2 注册=ID_Registration
+2 开发EpiData的目的=ID_Purpose
+2 技术支持=ID_Support
+2 如何分析数据=ID_HowToAnalyse
+2 版本信息=ID_VersionInformation
+2 该版本的特点=ID_Features
+2 与EpiInfo的 兼容=ID_Compatibility
+1 资助=ID_Acknowledgements

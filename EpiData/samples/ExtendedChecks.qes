@@ -1,0 +1,22 @@
+Testfile for Extended Check file language. 
+
+This is a "nonsense" file which contains additional Check file commands.
+Print the check file for inspiration and apply relevant commands to real dataentry files .
+
+s1 City of residence _______________    Has CONFIRMFIELD and TYPE STATUSBAR "s1= " Green
+s2 name ____________________   Has CONFIRMFIELD
+v1 Street number #### Has After Entry (jumps if v1=30)
+v2 Number of roses in garden ####
+v3 Country #                                 Has COMMENT LEGAL and TYPE COMMENT
+v4 Not decided #### Jumps
+b1 Nonsense <Y>   Has After Entry (sets B2)
+b2 Owner above 45 <Y>
+
+Hit F5 to try to add Dataentry Notes
+
+d1 Date of birth of owner <dd/mm/yyyy>   Jumps to write record if = "14/09/2001" and sets D2
+d2 Date of arrival <dd/mm/yyyy>
+v5 Reset variable ####  After entry (will reset V4)
+f1 Rainfall recently ##.###   Jump to write record if 2 or 9
+v6 Pounds of tomato crop ####
+

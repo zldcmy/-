@@ -1,0 +1,25 @@
+* Revised 06 sep 2001 08:41
+
+BEFORE FILE
+  HELP "This is a household - persons - visits example adapted to EpiData \n based on original Epi Info v6 example"
+  DEFINE VARADDRESS ________________________________ GLOBAL
+  DEFINE VARCITY ______________________ GLOBAL
+END
+
+HOUSEID
+  KEY UNIQUE 1
+END
+
+CITY
+  AFTER ENTRY
+    VARADDRESS=ADDRESS
+    VARCITY=CITY
+  END
+END
+
+WATER
+  AFTER ENTRY
+    RELATE HOUSEID PERSON
+  END
+END
+

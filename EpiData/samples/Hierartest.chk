@@ -1,0 +1,113 @@
+* Revised 11 feb 2001 21:29
+
+LABELBLOCK
+  LABEL dogs    1  Labrador    2  Schäffer    3  Sheepdog    4  Basset  END
+  LABEL beverages    1  "Coca Cola"    2  Water    3  Beer  END
+  LABEL countries    1  Denmark    2  Sweden    3  Norway    4  Finland    5  Iceland  END
+  LABEL s_cities    1  Stockholm    2  Malmö    3  Uppsala  END
+  LABEL n_cities    1  Oslo    2  Narvik  END
+  LABEL sf_cities    1  Helsinki    2  Åbo    3  Coupio  END
+  LABEL is_cities    1  Reykjavik    2  Hekla  END
+END
+
+id
+  KEY UNIQUE 2
+  MUSTENTER
+  TYPE STATUSBAR "ID number =" YELLOW
+END
+
+v1
+  COMMENT LEGAL
+    1  Dogs
+    2  Beverages
+    3  Countries
+    4  Other
+  END
+  TYPE COMMENT RED
+  BEFORE ENTRY
+    UNHIDE v2
+    UNHIDE v3
+  END
+  AFTER ENTRY
+    IF v1=4 THEN
+      CLEAR v2
+      HIDE v2
+      CLEAR v3
+      HIDE v3
+    ENDIF
+  END
+END
+
+v2
+  TYPE COMMENT BLUE
+  BEFORE ENTRY
+    IF v1=1 THEN
+      COMMENT LEGAL USE dogs
+      CLEAR v3
+      HIDE v3
+    ENDIF
+    IF v1=2 THEN
+      COMMENT LEGAL USE beverages
+      CLEAR v3
+      HIDE v3
+    ENDIF
+    IF v1=3 THEN
+      COMMENT LEGAL USE countries
+      UNHIDE v3
+    ENDIF
+    IF v1=4 THEN
+      COMMENT LEGAL
+      END
+    ENDIF
+  END
+END
+
+v3
+  TYPE COMMENT BLUE
+  BEFORE ENTRY
+    IF v1=3 THEN
+      IF v2=1 THEN
+        COMMENT LEGAL
+          1  Copenhagen
+          2  Kirkeby
+          3  Aarhus
+          4  Aalborg
+          5  Other
+        END
+      ELSE
+        IF v2=2 THEN
+          COMMENT LEGAL USE s_cities
+        ELSE
+          IF v2=3 THEN
+            COMMENT LEGAL USE n_cities
+          ELSE
+            IF v2=4 THEN
+              COMMENT LEGAL USE sf_cities
+            ELSE
+              IF v2=5 THEN
+                COMMENT LEGAL USE is_cities
+              ENDIF
+            ENDIF
+          ENDIF
+        ENDIF
+      ENDIF
+    ENDIF
+  END
+END
+
+v4
+  BEFORE ENTRY
+    V4=V1*100
+    IF v2 <> . THEN
+      V4=V4+V2*10
+    ENDIF
+    IF v3 <> . THEN
+      V4=V4+V3
+    ENDIF
+  END
+END
+
+v5
+  REPEAT
+END
+

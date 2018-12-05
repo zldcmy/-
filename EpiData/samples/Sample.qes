@@ -1,0 +1,23 @@
+Children's height survey
+
+v1  Informant's height in cm ####.#
+b1  Nationality # (press F9 to list of possible entries)
+d1  Informant's date of birth <dd/mm/yyyy>  (dd/mm/yyyy) 
+d2  Informant's age ###
+v1a Does informant have children? <Y>  (Press Y/N  or 1/0)
+v1b Number of children ##  (if more than 3 then enter "3")
+v1c 1st child's height in cm  ####.#
+v1d 2nd child's height in cm  ####.#
+v1e 3rd child's height in cm  ####.#
+v2  Children's average height ####.#
+v6  Does informant want his/hers name to be protected? <Y>  (Press Y/N  or 1/0)
+v7  Informant's name     <A                             >
+v8  Informant's homecity <A                   >
+v9  Informant identification <A                                                 >
+v10 Informant's sex  #   1=man  2=woman
+v11 No. of childbirths ##
+v12 Years in military service #  (press F9 to see possible entries)
+v13 Years of marriage #  (press F9 to see possible entries)
+d10 Date of entry of data <today-dmy>
+v14 Data entered by <A  >  (initials)
+

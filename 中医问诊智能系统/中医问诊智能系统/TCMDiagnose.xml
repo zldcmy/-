@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<XML>
+    <Items>
+			<Item Title="病名" Attr="Text" Val="0" State="" Des="" Field="Z1">	
+				<Item Title="心悸（怔忡）" Attr="CheckBox" Val="0" State="" Des="" Field="Z1_01"/>	
+				<Item Title="胸痹" Attr="CheckBox" Val="0" State="" Des="" Field="Z1_02"/>	
+				<Item Title="胸痛" Attr="CheckBox" Val="0" State="" Des="" Field="Z1_03"/>	
+				<Item Title="喘病" Attr="CheckBox" Val="0" State="" Des="" Field="Z1_04"/>			
+				<Item Title="其它" Attr="Edit" Val="" State="" Des="" Field="Z1_05"/>								
+				</Item>	
+			<Item Title="辩证" Attr="Text" Val="0" State="" Des="" Field="Z2">	
+				<Item Title="输入" Attr="Edit" Val="" State="" Des="" Field="Z2_01"/>							
+			<Item Title="病性" Attr="Text" Val="0" State="" Des="" Field="Z2_02">	
+				<Item Title="寒" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_01"/>	
+				<Item Title="热" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_02"/>	
+				<Item Title="寒热错杂" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_03"/>	
+			<Item Title="虚" Attr="Text" Val="0" State="" Des="" Field="Z2_02_04">	
+				<Item Title="气" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_04_01"/>	
+				<Item Title="血" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_04_02"/>	
+				<Item Title="阴" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_04_03"/>	
+				<Item Title="阳" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_04_04"/>							
+				</Item>		
+			<Item Title="实" Attr="Text" Val="0" State="" Des="" Field="Z2_02_05">	
+				<Item Title="风" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_01"/>	
+				<Item Title="寒" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_02"/>	
+				<Item Title="暑" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_03"/>	
+				<Item Title="湿" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_04"/>			
+				<Item Title="燥" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_05"/>	
+				<Item Title="火" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_06"/>	
+				<Item Title="气滞" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_00_05_07"/>	
+				<Item Title="血瘀" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_08"/>				
+				<Item Title="痰饮水气" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_02_05_09"/>												
+				</Item>									
+				</Item>	
+			<Item Title="病位" Attr="Text" Val="0" State="" Des="" Field="Z2_03">		
+				<Item Title="表" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_01"/>	
+				<Item Title="里" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_02"/>	
+				<Item Title="半表半里" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_03"/>								
+			<Item Title="脏腑" Attr="Text" Val="0" State="" Des="" Field="Z2_03_04">	
+				<Item Title="心" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_01"/>	
+				<Item Title="小肠" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_02"/>	
+				<Item Title="肝" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_03"/>	
+				<Item Title="胆" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_04"/>	
+				<Item Title="脾" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_05"/>	
+				<Item Title="胃" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_06"/>			
+				<Item Title="肺" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_07"/>	
+				<Item Title="大肠" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_08"/>			
+				<Item Title="肾" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_09"/>	
+				<Item Title="膀胱" Attr="CheckBox" Val="0" State="" Des="" Field="Z2_03_04_10"/>												
+				</Item>		
+				</Item>						
+				</Item>		
+						
+     </Items>
+</XML>

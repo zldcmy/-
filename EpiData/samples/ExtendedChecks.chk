@@ -1,0 +1,123 @@
+* Revised 13 jan 2001 20:44
+
+BEFORE FILE
+  DEFINE varTemp ####
+  DEFINE varTemp2 ####
+  HELP "This is a friendly before file message \nHello and enjoy your day."
+  * confirm 
+END
+
+AFTER FILE
+  HELP "This is an After File message\n\nPlease remember to back-up your datafile."
+END
+
+AFTER RECORD
+  IF s1 = . THEN
+    HELP "S1 cannot be left blank.\n\nPlease enter name" TYPE=WARNING
+    GOTO s1
+    EXIT
+  ENDIF
+  IF s2 = . THEN
+    HELP "S2 cannot be left blank.\n\nPlease enter city" TYPE=WARNING
+    GOTO s2
+    EXIT
+  ENDIF
+END
+
+s1
+  CONFIRMFIELD
+  TYPE STATUSBAR "S1 =" Green
+END
+
+s2
+  CONFIRMFIELD
+END
+
+v1
+  AFTER ENTRY
+    varTemp2=v1
+    varTemp=varTemp2+1
+    IF varTemp>5 THEN
+      v2=1
+    ELSE
+      v2=varTemp
+    ENDIF
+    IF v1=30 THEN
+      GOTO d1
+    ENDIF
+    IF v1 = . THEN
+      HELP "You entered nothing in v1, varTemp=@varTemp\nBy the way email on Epidata is info@@Epidata.dk"
+    ELSE
+      HELP "You typed  @v1 and varTemp=@varTemp\nBy the way email on Epidata is info@@Epidata.dk"
+    ENDIF
+  END
+END
+
+v3
+  COMMENT LEGAL
+    1  Denmark
+    2  Sweden
+    3  Norway
+    4  Thailand
+    5  Other
+  END
+  TYPE COMMENT
+END
+
+v4
+  JUMPS
+    1 v2
+    2 v3
+    2222 s2
+  END
+END
+
+b1
+  AFTER ENTRY
+    IF (b2 <> .) or (b2 = "Y") THEN
+      HELP "Data already entered in b2"
+    ELSE
+      B2=(V4 > 10)
+    ENDIF
+  END
+END
+
+b2
+  BEFORE ENTRY
+    IF (d2 <> .) and (d1 <> .) THEN
+      b2=( ((d2 - d1)/365.25) > 45 )
+    ENDIF
+  END
+END
+
+d1
+  AFTER ENTRY
+    IF d1="14/09/2001" THEN
+      d2="14/09/2002"
+      GOTO WRITE
+    ENDIF
+  END
+END
+
+v5
+  AFTER ENTRY
+    IF V5 = . THEN
+      HELP "Thou must not leave without entering data in V5" TYPE=WARNING
+    ELSE
+      HELP "You entered @V5 in V5\nV4=@V4 will be reset to missing"
+      V4=.
+    ENDIF
+  END
+END
+
+f1
+  JUMPS
+    2 WRITE
+  END
+  AFTER ENTRY
+    IF f1=9 THEN
+      GOTO WRITE
+    ENDIF
+  END
+END
+

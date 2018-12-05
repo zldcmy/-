@@ -1,0 +1,18 @@
+n1  one cipher    #
+n2  two cifre     ##
+n3  three cifre   ###
+n4  four  cifre   ####
+n5  five cifre    #####
+n6  six  cifre    ######
+n7  seven cifre   #######
+n8  eight cifre   ########
+n9  nine cifre    #########
+
+s1  Soundex     <S         >
+
+d1  1:1         #.#
+d2  2:2         ##.##
+d3  3:3         ###.###
+d4  4:4         ####.####
+d9  9:3         #########.###
+

@@ -1,0 +1,12 @@
+My first DataEntry Form
+id        (automatic id number)  <idnum > 
+V1                          sex  #  
+V2               Height (meter)  #.##             
+v3                Weight (kilo)  ###.#
+bmi              Body Mass Index ##.##
+v4                Date of birth  <dd/mm/yyyy>            
+age               Age today      ###
+s1         Country of Residence  ______________
+s2       City (Current address)  <a   >
+t1                  Todays Date  <Today-dmy>             
+

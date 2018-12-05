@@ -1,0 +1,173 @@
+
+LABELBLOCK
+  LABEL nationality
+    1    Danish
+    2    British
+    3    American
+    4    "Other Scandinavian countries"
+    5    "Other European countries"
+    6    Asian
+    7    "South American"
+    8    Other
+    9    N.a.
+  END
+  LABEL years
+    1    "0 years"
+    2    "1-2 years"
+    3    "3-5 years"
+    4    "6-10 years"
+    5    ">10 years"
+  END
+END
+
+V1        
+  RANGE 130 230
+END
+
+B1        
+  COMMENT LEGAL USE nationality
+END
+
+D1        
+  AFTER ENTRY
+    IF (Year(d1)<1900) OR (d1>Today) THEN
+      HELP "Please check the date of birth.\n\nIt does not appear to be right." TYPE=CONFIRMATION
+      GOTO D1
+    ELSE
+      IF (ROUND(INT((TODAY-D1)/365.25))<15) THEN
+        HELP "Age too small for a parent." TYPE=ERROR
+        GOTO D1
+      ELSE
+        D2=ROUND(INT((TODAY-D1)/365.25))
+      ENDIF
+    ENDIF
+  END
+END
+
+D2        
+  NOENTER
+END
+
+V1A       
+  JUMPS
+    N v6
+  END
+  MUSTENTER
+  AFTER ENTRY
+    IF NOT v1a THEN
+      CLEAR V1B
+      CLEAR V1C
+      CLEAR V1D
+      CLEAR V1E
+      CLEAR V2
+      HIDE V1B
+      HIDE V1C
+      HIDE V1D
+      HIDE V1E
+      HIDE V2
+    ELSE
+      UNHIDE V1B
+      UNHIDE V1C
+      UNHIDE V1D
+      UNHIDE V1E
+    ENDIF
+  END
+END
+
+V1B       
+  RANGE 0 3
+  AFTER ENTRY
+    IF v1b = 0 THEN
+      HELP "You indicated children, but wrote 0"
+      CLEAR V1A
+      CLEAR V1B
+      GOTO V1A
+    ENDIF
+  END
+END
+
+V1C       
+  BEFORE ENTRY
+    IF v1>0 THEN
+      V1C=V1/2
+    ELSE
+      V1C=50.0
+    ENDIF
+  END
+  AFTER ENTRY
+    IF v1b=1 THEN
+      V2=V1C
+      GOTO V6
+    ENDIF
+  END
+END
+
+V1D       
+  AFTER ENTRY
+    IF v1b=2 THEN
+      V2=(V1C+V1D)/2
+      GOTO V6
+    ELSE
+      IF v1b=1 THEN
+        CLEAR V1D
+      ENDIF
+    ENDIF
+  END
+END
+
+V1E       
+  AUTOJUMP V6
+  AFTER ENTRY
+    IF v1b=3 THEN
+      V2=(V1C+V1D+V1E)/3
+    ELSE
+      CLEAR V1E
+    ENDIF
+  END
+END
+
+V2        
+  NOENTER
+END
+
+V6        
+  JUMPS
+    Y v10
+  END
+END
+
+V8        
+  AUTOJUMP V10
+  AFTER ENTRY
+    V9=V7+', '+V8
+  END
+END
+
+V10       
+  JUMPS
+    1 v12
+  END
+END
+
+V11       
+  AUTOJUMP V13
+  AFTER ENTRY
+    IF (v10=1) AND (v11 <> .) THEN
+      HELP "Surely a man has not given birth to any children?" TYPE=WARNING
+      GOTO V11
+    ENDIF
+  END
+END
+
+V12       
+  COMMENT LEGAL USE years
+END
+
+V13       
+  COMMENT LEGAL USE years
+END
+
+V14       
+  REPEAT
+END
+

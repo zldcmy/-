@@ -1,0 +1,31 @@
+30 1 VLAB Filelabel: Sample study: Children's height
+_LABEL         1   1  30   0   0   0   0 112 Children's height survey
+#V1            1   3  30  30   3 101   6 112 v1  Informant's height in cm 
+#B1            1   4  30  17   4   0   1 112 b1  Nationality 
+_LABEL2       18   4  30   0   0   0   0 112  (press F9 to list of possible entries)
+_D1            1   5  30  31   5  11  10 112 d1  Informant's date of birth 
+_LABEL3       43   5  30   0   0   0   0 112   (dd/mm/yyyy) 
+#D2            1   6  30  21   6   0   3 112 d2  Informant's age 
+_V1A           1   7  30  35   7   5   1 112 v1a Does informant have children? 
+_LABEL4       38   7  30   0   0   0   0 112   (Press Y/N  or 1/0)
+#V1B           1   8  30  24   8   0   2 112 v1b Number of children 
+_LABEL5       26   8  30   0   0   0   0 112   (if more than 3 then enter "3")
+#V1C           1   9  30  31   9 101   6 112 v1c 1st child's height in cm  
+#V1D           1  10  30  31  10 101   6 112 v1d 2nd child's height in cm  
+#V1E           1  11  30  31  11 101   6 112 v1e 3rd child's height in cm  
+#V2            1  12  30  31  12 101   6 112 v2  Children's average height 
+_V6            1  13  30  56  13   5   1 112 v6  Does informant want his/hers name to be protected? 
+_LABEL6       59  13  30   0   0   0   0 112   (Press Y/N  or 1/0)
+_V7            1  14  30  26  14   3  30 112 v7  Informant's name     
+_V8            1  15  30  26  15   3  20 112 v8  Informant's homecity 
+_V9            1  16  30  30  16   3  50 112 v9  Informant identification 
+#V10           1  17  30  22  17   0   1 112 v10 Informant's sex  
+_LABEL7       23  17  30   0   0   0   0 112    1=man  2=woman
+#V11           1  18  30  24  18   0   2 112 v11 No. of childbirths 
+#V12           1  19  30  31  19   0   1 112 v12 Years in military service 
+_LABEL8       32  19  30   0   0   0   0 112   (press F9 to see possible entries)
+#V13           1  20  30  23  20   0   1 112 v13 Years of marriage 
+_LABEL9       24  20  30   0   0   0   0 112   (press F9 to see possible entries)
+_D10           1  21  30  27  21  16  10 112 d10 Date of entry of data 
+_V14           1  22  30  21  22   3   3 112 v14 Data entered by 
+_LABEL1       26  22  30   0   0   0   0 112   (initials)

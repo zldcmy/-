@@ -1,0 +1,16 @@
+15 1 Filelabel: Visits example file
+_LABEL1        1   2  30   0   0   0   0 112                                   Visit Record
+_LABEL2        1   4  30   0   0   0   0 112     Illustrating the linkage of three files in Epi Data. 
+_LABEL3        1   5  30   0   0   0   0 112     This example is adapted from EpiInfo v6 house - person - visit example.
+_LABEL4        1   7  30   0   0   0   0 112     Visits made by individuals in the PERSON file. Each person may have
+_LABEL5        1   8  30   0   0   0   0 112     several visits. Records in the two files are linked to each other by the
+_LABEL6        1   9  30   0   0   0   0 112     PERSONID field. Values for NAME, AGE, SEX and ILL are passed from
+_LABEL7        1  10  30   0   0   0   0 112     PERSON.REC via defined variables. (See PERSON.CHK and VISIT.CHK.) 
+_LABEL8        1  11  30   0   0   0   0 112     This information is displayed only, not stored in the file; Thus
+_LABEL9        1  12  30   0   0   0   0 112     no field types or lengths are specified in VISIT.QES for NAME,AGE,SEX and IL
+_LABEL10      81  12  30   0   0   0   0 112 L
+#PERSONID      1  14  30  24  14 100   5 112     PERSONID Person id 
+_LABEL11       1  15  30   0   0   0   0 112                                                   For:
+_VISIT         1  16  30  36  16  11  10 112     VISIT Date of Visit (european) 
+_FINDINGS      1  18  30  14  18   1  30 112     Findings 
+_LABEL12       1  20  30   0   0   0   0 112     Return to previous level by Ctrl+R or Ctrl+F4 or F10

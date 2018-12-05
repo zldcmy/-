@@ -1,0 +1,42 @@
+LABELBLOCK
+  LABEL tal
+    * report if your include file is not read correctly 
+    include include.inc
+    4  four
+    5  five
+    6  six
+  END
+END
+
+RECODEBLOCK
+  d3=222.2
+END
+
+BEFORE FILE
+  MISSINGVALUE ALL 8 8 8
+  type comment allfields red
+END
+
+n1
+  COMMENT LEGAL USE tal
+  MISSINGVALUE 9 9 9
+  *  type comment allfields below can replace the one in before file block
+  *  TYPE COMMENT ALLFIELDS RED
+  AFTER ENTRY
+    IF n1>1 THEN
+      BEEP
+    ENDIF
+  END
+END
+
+n2
+  COMMENT LEGAL USE tal
+END
+
+n3
+  COMMENT LEGAL USE tal
+END
+
+s1
+  missingvalue a b c
+end

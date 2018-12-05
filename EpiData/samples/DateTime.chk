@@ -1,0 +1,42 @@
+BEFORE FILE
+  DEFINE varEntryBegun ########.#####
+  DEFINE varStartTime  ########.#####
+  DEFINE varEndTime    ########.#####
+END
+
+BEFORE RECORD
+  varEntryBegun=Now
+  ENDDATE=varEntryBegun
+  ENDTIME=NUM2TIME(varEntryBegun)
+END
+
+STARTTIM
+  RANGE 0 23.59
+END
+
+ENDTIME
+  RANGE 0 23.59
+  AFTER ENTRY
+    varStartTime=STARTDAT+TIME2NUM(STARTTIM)
+    varEndTime=ENDDATE+TIME2NUM(ENDTIME)
+    DAYS=INT(varEndTime-varStartTime)
+    HOURSMIN=NUM2TIME(varEndTime-varStartTime)
+  END
+END
+
+DAYS
+  NOENTER
+END
+
+HOURSMIN
+  NOENTER
+END
+
+SECUSED
+  BEFORE ENTRY
+    IF SECUSED = . THEN
+      SECUSED=(Now-varEntryBegun)*86400
+      * 86400 seconds equals 24 hours
+    ENDIF
+  END
+END

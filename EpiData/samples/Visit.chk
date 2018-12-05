@@ -1,0 +1,32 @@
+* Revised 27 jun 2001 23:33
+
+BEFORE FILE
+*  Message "Now please enter all known visits for \n \n @varNAME"
+  Help "Now please enter all known visits for \n \n @varNAME"
+  DEFINE varINIT _
+  define info _________________________________________________
+END
+
+Before record
+  let info =  varNAME + " Age: " + varAGE + " Sex: " + varSEX + " Ill: " + varILL
+end
+
+PERSONID
+  KEY 1
+END
+
+VISIT
+  BEFORE ENTRY
+    type "@info" 
+    varINIT="Y"
+  END
+END
+
+FINDINGS
+  BEFORE ENTRY
+    IF varINIT = . THEN
+      GOTO VISIT
+    ENDIF
+  End
+END
+  
